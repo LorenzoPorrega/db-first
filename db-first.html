@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN" "http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!--This file was converted to xhtml by LibreOffice - see https://cgit.freedesktop.org/libreoffice/core/tree/filter/source/xslt for the code.-->
+
+<head profile="http://dublincore.org/documents/dcmi-terms/">
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/>
+<title xml:lang="en-US">- no title specified</title>
+<meta name="DCTERMS.title" content="" xml:lang="en-US"/>
+
+<meta name="DCTERMS.language" content="en-US" scheme="DCTERMS.RFC4646"/>
+<meta name="DCTERMS.source" content="http://xml.openoffice.org/odf2xhtml"/>
+
+<meta name="DCTERMS.issued" content="2023-09-12T13:09:49.003000000" scheme="DCTERMS.W3CDTF"/>
+
+<meta name="DCTERMS.modified" content="2023-09-12T13:52:26.874000000" scheme="DCTERMS.W3CDTF"/>
+
+
+<meta name="xsl:vendor" content="libxslt"/>
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" hreflang="en"/>
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" hreflang="en"/>
+<link rel="schema.DCTYPE" href="http://purl.org/dc/dcmitype/" hreflang="en"/>
+<link rel="schema.DCAM" href="http://purl.org/dc/dcam/" hreflang="en"/>
+
+<style>
+    table { border-collapse:collapse; border-spacing:0; empty-cells:show }
+    td, th { vertical-align:top; font-size:10pt;}
+    h1, h2, h3, h4, h5, h6 { clear:both;}
+    p { white-space: nowrap; }
+    ol, ul { margin:0; padding:0;}
+    li { list-style: none; margin:0; padding:0;}
+    span.footnodeNumber { padding-right:1em; }
+    span.annotation_style_by_filter { font-size:95%; font-family:Arial; background-color:#fff000;  margin:0; border:0; padding:0;  }
+    span.heading_numbering { margin-right: 0.8rem; }* { margin:0;}
+    .ta1 { writing-mode:horizontal-tb; direction:ltr; }
+    .Default { font-size:10pt; font-family:'Liberation Sans'; }
+    .ce1 { font-size:10pt; font-family:'Liberation Sans'; border-top-width:0.0261cm; border-top-style:solid; border-top-color:#000000; border-left-width:0.0261cm; border-left-style:solid; border-left-color:#000000; border-bottom-width:0.0261cm; border-bottom-style:solid; border-bottom-color:#000000; border-right-width:0.0261cm; border-right-style:solid; border-right-color:#000000; background-color:#fcfce0; text-align:center ! important; margin-left:0cm; }
+    .ce2 { font-size:10pt; font-family:'Liberation Sans'; border-top-width:0.0261cm; border-top-style:solid; border-top-color:#000000; border-left-width:0.0261cm; border-left-style:solid; border-left-color:#000000; border-bottom-width:0.0261cm; border-bottom-style:solid; border-bottom-color:#000000; border-right-width:0.0261cm; border-right-style:solid; border-right-color:#000000; background-color:#fcfce0; }
+    .co1 { width:4.627cm; }
+    .co2 { width:4.775cm; }
+    .co3 { width:9.592cm; }
+    .ro1 { height:0.452cm; }
+    /* ODF styles with no properties representable as CSS:
+     { } */
+</style>
+</head>
+
+<body dir="ltr">
+
+
+<table border="0" cellspacing="0" cellpadding="0" class="ta1"><colgroup><col width="202"/><col width="209"/><col width="419"/></colgroup><tr class="ro1"><td colspan="3" style="text-align:left;width:4.627cm; " class="ce1">
+<p>table architecture</p>
+</td></tr><tr class="ro1"><td style="text-align:left;width:4.627cm; " class="ce2">
+<p>name</p>
+</td><td style="text-align:left;width:4.775cm; " class="ce2">
+<p>type</p>
+</td><td style="text-align:left;width:9.592cm; " class="ce2">
+<p>attribute</p>
+</td></tr><tr class="ro1"><td style="text-align:left;width:4.627cm; " class="Default">
+<p>id</p>
+</td><td style="text-align:left;width:4.775cm; " class="Default">
+<p>INT</p>
+</td><td style="text-align:left;width:9.592cm; " class="Default">
+<p>NOTNULL, PRIMARY_KEY, AUTO_INCREMENT, UNIQUE</p>
+</td></tr><tr class="ro1"><td style="text-align:left;width:4.627cm; " class="Default">
+<p>brand</p>
+</td><td style="text-align:left;width:4.775cm; " class="Default">
+<p>VARCHAR(20)</p>
+</td><td style="text-align:left;width:9.592cm; " class="Default">
+<p>NOTNULL</p>
+</td></tr><tr class="ro1"><td style="text-align:left;width:4.627cm; " class="Default">
+<p>model</p>
+</td><td style="text-align:left;width:4.775cm; " class="Default">
+<p>VARCHAR(50)</p>
+</td><td style="text-align:left;width:9.592cm; " class="Default">
+<p>NOTNULL</p>
+</td></tr><tr class="ro1"><td style="text-align:left;width:4.627cm; " class="Default">
+<p>vin</p>
+</td><td style="text-align:left;width:4.775cm; " class="Default">
+<p>VARCHAR(17)</p>
+</td><td style="text-align:left;width:9.592cm; " class="Default">
+<p>NOTNULL, UNIQUE</p>
+</td></tr><tr class="ro1"><td style="text-align:left;width:4.627cm; " class="Default">
+<p>year_of_prod</p>
+</td><td style="text-align:left;width:4.775cm; " class="Default">
+<p>YEAR</p>
+</td><td style="text-align:left;width:9.592cm; " class="Default">
+<p>NULL</p>
+</td></tr><tr class="ro1"><td style="text-align:left;width:4.627cm; " class="Default">
+<p>engine_displacement</p>
+</td><td style="text-align:left;width:4.775cm; " class="Default">
+<p>SMALLINT</p>
+</td><td style="text-align:left;width:9.592cm; " class="Default">
+<p>NULL</p>
+</td></tr><tr class="ro1"><td style="text-align:left;width:4.627cm; " class="Default">
+<p>paint_color</p>
+</td><td style="text-align:left;width:4.775cm; " class="Default">
+<p>VARCHAR(20)</p>
+</td><td style="text-align:left;width:9.592cm; " class="Default">
+<p>NULL</p>
+</td></tr><tr class="ro1"><td style="text-align:left;width:4.627cm; " class="Default">
+<p>mileage</p>
+</td><td style="text-align:left;width:4.775cm; " class="Default">
+<p>MEDIUMINT</p>
+</td><td style="text-align:left;width:9.592cm; " class="Default">
+<p>NOTNULL, INDEX</p>
+</td></tr><tr class="ro1"><td style="text-align:left;width:4.627cm; " class="Default">
+<p>price</p>
+</td><td style="text-align:left;width:4.775cm; " class="Default">
+<p>DECIMAL(10,2)</p>
+</td><td style="text-align:left;width:9.592cm; " class="Default">
+<p>NULL</p>
+</td></tr><tr class="ro1"><td style="text-align:left;width:4.627cm; " class="Default">
+<p>discount_percent</p>
+</td><td style="text-align:left;width:4.775cm; " class="Default">
+<p>DECIMAL(2,2)</p>
+</td><td style="text-align:left;width:9.592cm; " class="Default">
+<p>NULL</p>
+</td></tr><tr class="ro1"><td style="text-align:left;width:4.627cm; " class="Default">
+<p>in_house_availability</p>
+</td><td style="text-align:left;width:4.775cm; " class="Default">
+<p>TINYINT(1)</p>
+</td><td style="text-align:left;width:9.592cm; " class="Default">
+<p>NOTNULL, DEFAULT(0)</p>
+</td></tr><tr class="ro1"><td style="text-align:left;width:4.627cm; " class="Default">
+<p>car_age</p>
+</td><td style="text-align:left;width:4.775cm; " class="Default">
+<p>TINYINT</p>
+</td><td style="text-align:left;width:9.592cm; " class="Default">
+<p>NULL</p>
+</td></tr><tr class="ro1"><td style="text-align:left;width:4.627cm; " class="Default">
+<p>purchase_date</p>
+</td><td style="text-align:left;width:4.775cm; " class="Default">
+<p>DATE</p>
+</td><td style="text-align:left;width:9.592cm; " class="Default">
+<p>NULL</p>
+</td></tr><tr class="ro1"><td style="text-align:left;width:4.627cm; " class="Default">
+<p>house_purchase_date</p>
+</td><td style="text-align:left;width:4.775cm; " class="Default">
+<p>DATE</p>
+</td><td style="text-align:left;width:9.592cm; " class="Default">
+<p>NULL</p>
+</td></tr><tr class="ro1"><td style="text-align:left;width:4.627cm; " class="Default">
+<p>sold</p>
+</td><td style="text-align:left;width:4.775cm; " class="Default">
+<p>TINYINT(1)</p>
+</td><td style="text-align:left;width:9.592cm; " class="Default">
+<p>NOTNULL</p>
+</td></tr><tr class="ro1"><td style="text-align:left;width:4.627cm; " class="Default">
+<p>sale_date</p>
+</td><td style="text-align:left;width:4.775cm; " class="Default">
+<p>DATE</p>
+</td><td style="text-align:left;width:9.592cm; " class="Default">
+<p>NULL</p>
+</td></tr><tr class="ro1"><td style="text-align:left;width:4.627cm; " class="Default">
+<p>fuel_type</p>
+</td><td style="text-align:left;width:4.775cm; " class="Default">
+<p>VARCHAR(10)</p>
+</td><td style="text-align:left;width:9.592cm; " class="Default">
+<p>NULL</p>
+</td></tr><tr class="ro1"><td style="text-align:left;width:4.627cm; " class="Default">
+<p>propulsion_sys</p>
+</td><td style="text-align:left;width:4.775cm; " class="Default">
+<p>VARCHAR(4)</p>
+</td><td style="text-align:left;width:9.592cm; " class="Default">
+<p>NULL</p>
+</td></tr><tr class="ro1"><td style="text-align:left;width:4.627cm; " class="Default">
+<p>previous_owner</p>
+</td><td style="text-align:left;width:4.775cm; " class="Default">
+<p>VARCHAR(30)</p>
+</td><td style="text-align:left;width:9.592cm; " class="Default">
+<p>NULL</p>
+</td></tr><tr class="ro1"><td style="text-align:left;width:4.627cm; " class="Default">
+<p>times_crashed</p>
+</td><td style="text-align:left;width:4.775cm; " class="Default">
+<p>TINYINT</p>
+</td><td style="text-align:left;width:9.592cm; " class="Default">
+<p>NULL</p>
+</td></tr><tr class="ro1"><td style="text-align:left;width:4.627cm; " class="Default">
+<p>latest_crash_date</p>
+</td><td style="text-align:left;width:4.775cm; " class="Default">
+<p>DATE</p>
+</td><td style="text-align:left;width:9.592cm; " class="Default">
+<p>NULL</p>
+</td></tr><tr class="ro1"><td style="text-align:left;width:4.627cm; " class="Default">
+<p>description</p>
+</td><td style="text-align:left;width:4.775cm; " class="Default">
+<p>TEXT</p>
+</td><td style="text-align:left;width:9.592cm; " class="Default">
+<p>NULL</p>
+</td></tr><tr class="ro1"><td style="text-align:left;width:4.627cm; " class="Default">
+<p>installment_plan_availability</p>
+</td><td style="text-align:left;width:4.775cm; " class="Default">
+<p>TINYINT(1)</p>
+</td><td style="text-align:left;width:9.592cm; " class="Default">
+<p>NULL</p>
+</td></tr></table>
+
+</body>
+
+</html>
